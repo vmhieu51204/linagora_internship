@@ -21,7 +21,7 @@ These datasets are designed to train, align, and systematically evaluate an LLM'
 ## Jail break
 Jailbreak datasets are designed specifically to expose vulnerabilities and bypass an LLM's established safety guardrails. They consist of highly complex, deceptive, or adversarial prompts that utilize techniques like persona adoption (role-playing), payload splitting, or ciphering.
 
-### jailbreak2-guardrails (by huyhoangdinhcong)
+### 1. jailbreak2-guardrails (by huyhoangdinhcong)
 * **Hyperlink:** [https://huggingface.co/datasets/huyhoangdinhcong/jailbreak2-guardrails](https://huggingface.co/datasets/huyhoangdinhcong/jailbreak2-guardrails)
 * **Brief Description:** This dataset contains over 67,000 text samples specifically tailored for training guardrails and detecting jailbreaks. It contains **Vietnamese**  language and includes a balanced mix of **both safe (label 0) and malicious (label 1) prompts**. It features many translated role-play exploits and persona adoption techniques (like the "NECO" or "DAN" frameworks) adapted directly into Vietnamese.
 * **Sample Prompts:**
